@@ -3,18 +3,18 @@ import { Link } from "react-router-dom";
 
 const navBar = () => {
   return (
-    <div>
+    <div className="nav-bar">
       <section>
         <nav>
-          <button>
-            <Link to="/Home">Home</Link>
-          </button>
-          <button>
-            <Link to="/Team">Team</Link>
-          </button>
-          <button>
-            <Link to="/Pokemon">PokeManager</Link>
-          </button>
+          <Link to="/Home">
+            <button className="nav-button">Home</button>
+          </Link>
+          <Link to="/Pokemon">
+            <button className="nav-button">PokeManager</button>
+          </Link>
+          <Link to="/Team">
+            <button className="nav-button">Team</button>
+          </Link>
         </nav>
       </section>
     </div>

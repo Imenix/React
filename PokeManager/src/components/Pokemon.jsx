@@ -31,13 +31,13 @@ const Pokemon = () => {
   }, []);
 
   return (
-    <div className="Pokemon-list">
+    <div className="pokemon-list">
       {PokemonArray.map((pokemon, index) => (
         <PokemonCard
           key={index}
           id={pokemon.id}
           name={pokemon.name}
-          //image={pokemon.sprites.front_default}
+          image={pokemon.sprites.front_default}
         />
       ))}
     </div>

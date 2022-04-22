@@ -9,18 +9,20 @@ function App() {
   return (
     <Router>
       <div className="App">
-        <header className="App-header">
+        <header className="header">
           <h1>Pokemon Manager</h1>
         </header>
         <NavBar />
         <main>
-          <Pokemon />
-          <Routes>
-            <Route path="/Home" element={<Home />} />
-            <Route path="/Pokemon" element={<Pokemon />} />
-            <Route path="/Team" element={<Team />} />
-          </Routes>
+          <body className="body">
+            <Routes>
+              <Route path="/Home" element={<Home />} />
+              <Route path="/Pokemon" element={<Pokemon />} />
+              <Route path="/Team" element={<Team />} />
+            </Routes>
+          </body>
         </main>
+        <footer />
       </div>
     </Router>
   );
