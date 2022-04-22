@@ -1,0 +1,12 @@
+.button-container {
+  border: 3px solid black;
+  padding: 1em;
+  margin: 1em;
+  color: rgb(43, 43, 48);
+  background-color: rgb(252, 222, 55);
+}
+
+.off {
+  color: rgb(182, 182, 189);
+  background-color: rgb(9, 9, 34);
+}
