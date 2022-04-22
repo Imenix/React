@@ -14,13 +14,11 @@ function App() {
         </header>
         <NavBar />
         <main>
-          <body className="body">
-            <Routes>
-              <Route path="/Home" element={<Home />} />
-              <Route path="/Pokemon" element={<Pokemon />} />
-              <Route path="/Team" element={<Team />} />
-            </Routes>
-          </body>
+          <Routes>
+            <Route path="/Home" element={<Home />} />
+            <Route path="/Pokemon" element={<Pokemon />} />
+            <Route path="/Team" element={<Team />} />
+          </Routes>
         </main>
         <footer />
       </div>
